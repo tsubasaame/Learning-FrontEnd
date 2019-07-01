@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h3>object标签 -- HTML5之前的标签</h3>
+    <hr>
+    <object height="100" width="400" data="images/循环.mp3"></object>
+    <object height="400" width="600" data="images/28037D37CD94D9E06CFCB56D3F39C8A1.mp4"></object>
+    <h3>embed标签 -- HTML5中特有的，插入音频视频</h3>
+    <hr>
+    <embed height="100" width="400" src="images/循环.mp3">
+    <embed height="400" width="600" src="images/28037D37CD94D9E06CFCB56D3F39C8A1.mp4">
+
+    <h3>audio标签 -- HTML5推荐的音频标签</h3>
+    <audio controls="controls">
+        <source src="images/循环.mp3" type="audio/mp3">
+    </audio>
+
+    <h3>video标签 -- HTML5推荐的视频标签</h3>
+    <video height="400" width="600" controls="controls">
+        <source src="images/28037D37CD94D9E06CFCB56D3F39C8A1.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
